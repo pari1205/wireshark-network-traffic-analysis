@@ -1,0 +1,24 @@
+Tools Used:
+- Wireshark
+
+Objective:
+The goal of this task was to capture live network packets and analyze network traffic using Wireshark, identifying basic communication protocols such as TCP, DNS, and ARP.
+
+Steps Taken:
+1. Installed Wireshark on the system.
+2. Started packet capture on the active network interface.
+3. Opened websites and used the ping command to generate network traffic.
+4. Stopped the capture after 1 minute.
+5. Applied filters (tcp, dns, arp) to isolate different protocols.
+6. Identified at least three protocols from the traffic.
+7. Saved the capture as a .pcap file.
+8. Documented the findings in this report.
+
+Protocols Identified:
+1. TCP (Transmission Control Protocol) - Used for reliable data transfer.
+2. DNS (Domain Name System) - Resolves domain names to IP addresses.
+3. ARP (Address Resolution Protocol) - Resolves IP addresses to MAC addresses.
+
+Files:
+- pari_capture.pcap
+- report.txt (this file)
